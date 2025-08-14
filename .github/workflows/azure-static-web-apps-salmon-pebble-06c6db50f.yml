@@ -1,4 +1,3 @@
-
 name: Azure Static Web Apps CI/CD
 
 on:
@@ -21,10 +20,14 @@ jobs:
           submodules: true
           lfs: false
 
+      - name: Init Submodules
+        run: git submodule update --init --recursive
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.124.1'  # Set to your local Hugo version
+          hugo-version: '0.127.0'
+          extended: true
 
       - name: Build Hugo Site
         run: hugo --minify
@@ -36,9 +39,9 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_SALMON_PEBBLE_06C6DB50F }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/" # Source
-          api_location: ""  # No API
-          output_location: "public" # Where Hugo builds
+          app_location: "/"
+          api_location: ""
+          output_location: "public"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
