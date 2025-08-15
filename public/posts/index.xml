@@ -4,21 +4,23 @@
     <title>Posts on My Hugo Blog</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on My Hugo Blog</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Aug 2025 12:36:56 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/posts/hello-world/</guid>
       <description>&lt;p&gt;Welcome to my Hugo blog! This is my first post.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Halving Azure Spend in 24 Months: A Phased FinOps Playbook</title>
       <link>http://localhost:1313/posts/halving-azure-spend/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/posts/halving-azure-spend/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Kasi Muppina&lt;/strong&gt;&lt;br&gt;
@@ -27,5 +29,6 @@
 &lt;p&gt;Over the past two years, I&amp;rsquo;ve led a journey that proves cloud cost management isn&amp;rsquo;t just about cutting expenses — it&amp;rsquo;s about strategic value creation.&lt;/p&gt;
 &lt;p&gt;When I first started working with our Azure environment, we encountered a common issue: escalating cloud expenses consuming a large portion of our budget. Through a targeted Azure cost optimization initiative, we reduced our annual spend by &lt;strong&gt;50%, from $3.2 million to $1.8 million&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

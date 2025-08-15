@@ -4,14 +4,12 @@ title = "My Hugo Blog"
 theme = "PaperMod"
 
 [params]
-  author = "Kashi"
-  ShowReadingTime = true
+  author = "Your Name"
   ShowBreadCrumbs = true
-  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1

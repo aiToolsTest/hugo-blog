@@ -6,12 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
 <title>About | My Hugo Blog</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="" />
 <meta name="description" content="Welcome to my blog!
 This is the About page. You can write about yourself or your mission here.">
-<meta name="author" content="Kashi">
-<link rel="canonical" href="http://localhost:1313/about/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<meta name="author" content="Your Name">
+<link rel="canonical" href="http://localhost:1313/about/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c018c0755699d0316db290a18f820bd9d0ee19859de8f0dc2d70c857deb0bf3b.css" integrity="sha256-wBjAdVaZ0DFtspChj4IL2dDuGYWd6PDcLXDIV96wvzs=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.555af97124d54bb1457985dd081b8f5616a48103aafeb30ac89fde835d65aa6c.js" integrity="sha256-VVr5cSTVS7FFeYXdCBuPVhakgQOq/rMKyJ/eg11lqmw="
+    onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -19,7 +21,8 @@ This is the About page. You can write about yourself or your mission here.">
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/about/">
+<meta name="generator" content="Hugo 0.148.2">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/about/" />
 <noscript>
     <style>
         #theme-toggle,
@@ -37,7 +40,7 @@ This is the About page. You can write about yourself or your mission here.">
                 --secondary: rgb(155, 156, 157);
                 --tertiary: rgb(65, 66, 68);
                 --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
+                --hljs-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
             }
@@ -75,14 +78,14 @@ This is the About page. You can write about yourself or your mission here.">
     <nav class="nav">
         <div class="logo">
             <a href="http://localhost:1313/" accesskey="h" title="My Hugo Blog (Alt + H)">My Hugo Blog</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -96,12 +99,14 @@ This is the About page. You can write about yourself or your mission here.">
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-            </div>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </span>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span class="active">About</span>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
                 </a>
             </li>
         </ul>
@@ -112,10 +117,10 @@ This is the About page. You can write about yourself or your mission here.">
 <article class="post-single">
   <header class="post-header">
     <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
-    <h1 class="post-title entry-hint-parent">
+    <h1 class="post-title">
       About
     </h1>
-    <div class="post-meta"><span title='2025-08-12 00:00:00 +0000 UTC'>August 12, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Kashi
+    <div class="post-meta">&lt;span title=&#39;2025-08-12 00:00:00 &#43;0000 UTC&#39;&gt;August 12, 2025&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;Your Name
 
 </div>
   </header> 
@@ -126,19 +131,17 @@ This is the <strong>About</strong> page. You can write about yourself or your mi
   </div>
 
   <footer class="post-footer">
-    <ul class="post-tags">
-    </ul>
+
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My Hugo Blog</a></span> · 
-
+    <span>&copy; 2025 <a href="http://localhost:1313/">My Hugo Blog</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">

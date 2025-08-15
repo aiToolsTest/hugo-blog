@@ -4,44 +4,53 @@
     <title>Tags on My Hugo Blog</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on My Hugo Blog</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azure</title>
       <link>http://localhost:1313/tags/azure/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/tags/azure/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Cloud Optimization</title>
       <link>http://localhost:1313/tags/cloud-optimization/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/tags/cloud-optimization/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>Cost Management</title>
       <link>http://localhost:1313/tags/cost-management/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/tags/cost-management/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>DevSecOps</title>
       <link>http://localhost:1313/tags/devsecops/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/tags/devsecops/</guid>
       <description></description>
     </item>
+    
     <item>
       <title>FinOps</title>
       <link>http://localhost:1313/tags/finops/</link>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>http://localhost:1313/tags/finops/</guid>
       <description></description>
     </item>
+    
   </channel>
 </rss>
